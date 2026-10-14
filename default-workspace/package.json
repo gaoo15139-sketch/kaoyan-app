@@ -1,0 +1,11 @@
+{
+  "name": "kaoyan-mobile-archive",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "考研四科 AI 材料导入、分类与归档 —— 纯移动端 PWA，数据全部保存在手机上",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "serve": "node tests/serve.mjs"
+  }
+}

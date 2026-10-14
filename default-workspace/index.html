@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>考研四科 AI 材料归档</title>
+<meta name="description" content="考研四科材料导入、AI 分类建议与人工审核归档，数据全部保存在本机">
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="theme-color" content="#16203a">
+<meta name="color-scheme" content="dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="考研归档">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<header class="app-header">
+  <div class="brand">
+    <span class="logo">考</span>
+    <div class="brand-text">
+      <h1>考研四科 AI 材料归档</h1>
+      <p>408 · 政治 · 数学 · 英语</p>
+    </div>
+  </div>
+  <div class="header-status" id="header-status"></div>
+</header>
+
+<nav class="tabs" id="tabs" aria-label="主导航"></nav>
+
+<main id="view" class="view"></main>
+
+<div id="toasts" class="toasts"></div>
+<div id="modal-root"></div>
+
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>

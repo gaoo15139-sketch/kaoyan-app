@@ -1,0 +1,29 @@
+{
+  "id": "./",
+  "name": "考研四科 AI 材料归档",
+  "short_name": "考研归档",
+  "description": "408 / 政治 / 数学 / 英语 材料导入、AI 分类建议与人工审核归档。数据全部保存在本机。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#16203a",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "导入材料", "short_name": "导入", "url": "./?tab=import",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "审核工作台", "short_name": "审核", "url": "./?tab=review",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "材料库", "short_name": "材料库", "url": "./?tab=library",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
